@@ -1,5 +1,3 @@
-Live
-
 #!/bin/bash
 
 STREAM_KEY="$1"
