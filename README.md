@@ -50,11 +50,11 @@ Contoh Folder & File Tree :
 Di dalam folder video, isi nama file video dan thumbnail dengan nama yang sama (contoh 1.mp4 dan 1.jpg)
 
 - client_secret.json : client secret dari Google API
-- config.json : konfigurasi metadata untuk video dan thumbnail, ada index terhitung dari 0
-- schedule.py : script untuk penjadwalan livestream
-- start.py : script untuk start streaming
-- stop.py : script untuk stop streaming
-- streamid.py : mendapat list stream id untuk memakai stream key nanti
+- [config.json](https://github.com/zPabsy/SuperBasicLive/blob/main/AutoLive/config.json) : konfigurasi metadata untuk video dan thumbnail, ada index terhitung dari 0
+- [schedule.py](https://github.com/zPabsy/SuperBasicLive/blob/main/AutoLive/schedule.py) : script untuk penjadwalan livestream
+- [start.py](https://github.com/zPabsy/SuperBasicLive/blob/main/AutoLive/start.py) : script untuk start streaming
+- [stop.py](https://github.com/zPabsy/SuperBasicLive/blob/main/AutoLive/stop.py) : script untuk stop streaming
+- [streamid.py](https://github.com/zPabsy/SuperBasicLive/blob/main/AutoLive/streamid.py) : mendapat list stream id untuk memakai stream key nanti
 - token.json : credential token dari client secret untuk akses streaming dll
 
 Notes : pastikan semua ada dalam satu folder dan periksa setiap schedule.py, start.py dan stop.py karena perlu edit lokasi.
